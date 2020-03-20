@@ -135,6 +135,12 @@ Some titles will have different SKUs in the PlayStation Store database, dependin
   The regions which are unavailable have no database or have formatting in the database, which can not be used by the component.
 </div>
 
+## Unknown state
+
+If the PlayStation 4 can't be reached, be it due to network problems or simply because it is switched off (not standby), the state of the entity is unknown. This is the default behaviour and can be overriden while setting up the integration. It is possible to set the unknown state to 'Off', and doing so will display the entity as 'Off' instead of unknown.
+
+This is especially usefull if the PlayStation 4 is primarily switched off insted of putting it into standby. But be advised, that the state will also show 'Off', even if there actually are connection problems and the PlayStation 4 can't be reached while it is running.
+
 ## Media Data
 
 The PlayStation 4 integration will fetch information about the game or app that is currently running from your region's [PlayStation Store](https://store.playstation.com) database.
